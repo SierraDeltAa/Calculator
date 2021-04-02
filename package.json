@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run clean && parcel serve ./src/index.html --open",
+    "start": "npm run clean && parcel serve ./index.html --open",
     "clean": "rm -rf .cache dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
