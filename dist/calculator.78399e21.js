@@ -29633,12 +29633,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"src/assets/css/style.css":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"assets/css/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/Buttons/Buttons.jsx":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Buttons/Buttons.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29734,7 +29734,7 @@ function Buttons(props) {
     className: styleCalc
   }, "=")));
 }
-},{"react":"node_modules/react/index.js"}],"src/components/ResultScreen/ResultScreen.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"components/ResultScreen/ResultScreen.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29757,7 +29757,7 @@ function ResultScreen(props) {
     value: props.screenValue
   }));
 }
-},{"react":"node_modules/react/index.js"}],"src/components/App.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"components/App.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -29826,7 +29826,7 @@ function App() {
     onCalc: handleCalc
   }));
 }
-},{"react":"node_modules/react/index.js","../assets/css/style.css":"src/assets/css/style.css","./Buttons/Buttons":"src/components/Buttons/Buttons.jsx","./ResultScreen/ResultScreen":"src/components/ResultScreen/ResultScreen.jsx"}],"src/index.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../assets/css/style.css":"assets/css/style.css","./Buttons/Buttons":"components/Buttons/Buttons.jsx","./ResultScreen/ResultScreen":"components/ResultScreen/ResultScreen.jsx"}],"index.jsx":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -29840,7 +29840,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var root = document.querySelector("#root");
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_App.default, null), root);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/App":"src/components/App.jsx"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/App":"components/App.jsx"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29868,7 +29868,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62709" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64584" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -30044,5 +30044,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","src/index.jsx"], null)
-//# sourceMappingURL=/src.6ebfba02.js.map
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.jsx"], null)
+//# sourceMappingURL=/calculator.78399e21.js.map
