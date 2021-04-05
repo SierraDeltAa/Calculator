@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run clean && parcel serve ./index.html --open",
     "clean": "rm -rf .cache dist",
+    "build": "npm run clean && parcel build ./src/indx.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
