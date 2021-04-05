@@ -1,9 +1,12 @@
 {
+  "homepage": "http://SieraDeltAa.github.io/calculator",
   "name": "calculator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "npm run clean && parcel serve ./index.html --open",
     "clean": "rm -rf .cache dist",
     "build": "npm run clean && parcel build ./src/index.html --public-url ./",
@@ -16,5 +19,8 @@
     "parcel-bundler": "^1.12.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
